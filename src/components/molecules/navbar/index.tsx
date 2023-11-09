@@ -9,8 +9,8 @@ import { SpanLinkAnimation } from '../../animations/linkAnimation';
 export default function Navbar() {
 	const [show, setShow] = useState('home');
 	return (
-		<div className=' backdrop-blur-md fixed w-full z-50 bg-white/90 drop-shadow-md'>
-			<div className='max-w-[1280px] mx-auto p-4 flex justify-between items-center'>
+		<div className=' backdrop-blur-md fixed max-w-screen w-full z-50 bg-white/90 drop-shadow-md'>
+			<div className='max-w-[1280px] p-5 mx-3 lg:mx-14 xl:mx-auto flex  justify-between items-center '>
 				<a href='/'>
 					<img
 						className='w-28  backdrop-filter drop-shadow-logoShadow -translate-x-6'
@@ -21,7 +21,7 @@ export default function Navbar() {
 					/>
 				</a>
 
-				<nav>
+				<nav className='hidden lg:block'>
 					<ul className='flex gap-4 font-bold text-lg '>
 						<motion.li
 							onClick={() => setShow('home')}

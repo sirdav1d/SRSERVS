@@ -14,6 +14,6 @@ export const FadeAnimation: Variants = {
 	},
 	closed: {
 		opacity: 0,
-		x: -80,
+		x: -40,
 	},
 };

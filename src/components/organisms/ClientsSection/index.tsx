@@ -41,17 +41,17 @@ export default function ClientsSection() {
 		<div
 			id='clients'
 			className=' w-full mt-20 h-fit '>
-			<div className=' max-w-[1280px] mx-auto flex flex-col gap-5 '>
+			<div className=' max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto flex flex-col gap-5 '>
 				<TextComponent
 					role={'title'}
 					text={'Venha Fazer Parte Da Nossa Comunidade de Clientes'}
 				/>
-				<ul className='flex flex-wrap flex-shrink-0 items-center justify-center'>
+				<ul className='flex flex-wrap flex-shrink-0 items-end justify-center gap-5'>
 					{logos.map((logo, index) => {
 						return (
 							<li key={index}>
 								<img
-									className='scale-[60%] '
+									className='w-28 h-28 object-contain '
 									src={logo}
 									alt='Logo de Parceiros'
 								/>

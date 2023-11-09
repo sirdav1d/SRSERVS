@@ -12,7 +12,7 @@ import WhoSection from './components/organisms/WhoSection';
 
 function App() {
 	return (
-		<div className='bg-[#fdfdfd]'>
+		<div className='bg-[#fdfdfd] '>
 			<HeroSection />
 			<WhoSection />
 			<CleanSection />

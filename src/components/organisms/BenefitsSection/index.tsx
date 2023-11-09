@@ -9,11 +9,11 @@ export default function BenefitsSection() {
 		<div
 			className='h-fit mt-24 w-full'
 			id='benefits'>
-			<div className=' max-w-[1280px] mx-auto items-end justify-center  flex gap-5'>
+			<div className=' max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto items-end justify-center  flex gap-5'>
 				<img
 					src={teamImg}
 					alt='Faxineira Apontando'
-					className='w-[640px] drop-shadow-lg object-contain '
+					className='w-[640px] drop-shadow-lg object-contain hidden xl:block '
 				/>
 				<div className='w-full'>
 					{' '}

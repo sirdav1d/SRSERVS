@@ -7,16 +7,16 @@ import logo from '../../../assets/logoSRServs_gray.png';
 export default function Footer() {
 	return (
 		<div className='h-fit py-10 bg-[#001444] text-white'>
-			<div className='max-w-[1280px] mx-auto relative flex flex-col gap-5 '>
+			<div className='max-w-[1280px] px-5 lg:mx-14 xl:mx-auto relative flex flex-col gap-5 '>
 				<img
 					src={logo}
 					alt='logo SR Serviços'
 					className='opacity-40 w-40 grayscale'
 				/>
-				<div className='flex gap-10 justify-between'>
+				<div className='flex flex-col lg:flex-row gap-10 justify-between'>
 					<div className='flex flex-col gap-5'>
-						<h3 className='font-bold text-2xl'>Endereços</h3>
-						<ul className='text-stone-200 text-base flex flex-col gap-3'>
+						<h3 className='font-bold lg:text-2xl text-lg'>Endereços</h3>
+						<ul className='text-stone-200 text-xs lg:text-base flex flex-col gap-3'>
 							<li>
 								São Paulo/SP – Rua Visconde de Itaboraí, 269 Cep 03308-050
 							</li>
@@ -25,16 +25,16 @@ export default function Footer() {
 						</ul>
 					</div>
 					<div className='flex flex-col gap-5'>
-						<h3 className='font-bold text-2xl'>Contatos</h3>
-						<ul className='text-stone-200 text-base flex flex-col gap-3'>
+						<h3 className='font-bold lg:text-2xl text-lg'>Contatos</h3>
+						<ul className='text-stone-200 text-xs lg:text-base flex flex-row lg:flex-col gap-4'>
 							<li>Fone (11) 2098-4933</li>
 							<li> Fone (41) 3353-1683 </li>
 							<li> Fone (51) 3077-0905</li>
 						</ul>
 					</div>
 					<div className='flex flex-col gap-5'>
-						<h3 className='font-bold text-2xl'>Site Map</h3>
-						<ul className='text-stone-200 text-base flex flex-col gap-1 '>
+						<h3 className='font-bold lg:text-2xl text-lg'>Site Map</h3>
+						<ul className='text-stone-200 text-base flex flex-wrap lg:flex-col gap-5 lg:gap-2 '>
 							<li className=' hover:text-white '>
 								<a href='#home'>HOME</a>
 							</li>
@@ -56,7 +56,7 @@ export default function Footer() {
 						</ul>
 					</div>
 
-					<ul className='flex flex-col items-center gap-5 h-full'>
+					<ul className='flex lg:flex-col items-center gap-5 h-full'>
 						<li>
 							<a
 								href='http://'
@@ -93,7 +93,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<span className='w-full h-[2px] bg-white/20 rounded-full' />
-				<div className='flex w-full justify-between text-stone-300 text-sm'>
+				<div className='flex flex-col gap-3 lg:flex-row w-full justify-between text-stone-300 text-xs lg:text-sm'>
 					<p>
 						Desenvolvido pela{' '}
 						<a
@@ -105,7 +105,7 @@ export default function Footer() {
 						</a>
 						{''}2023 Todos os Direitos Reservados
 					</p>
-					<div className='flex gap-5 underline text-stone-300 text-sm'>
+					<div className='flex gap-5 underline text-stone-300 text-xs lg:text-sm'>
 						<a
 							className='hover:text-white'
 							href='http://'

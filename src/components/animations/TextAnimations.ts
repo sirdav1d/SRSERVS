@@ -13,7 +13,7 @@ export const HeadLineAnimation: Variants = {
 	},
 	closed: {
 		opacity: 0,
-		x: -80,
+		x: -40,
 	},
 };
 
@@ -28,7 +28,7 @@ export const TitleAnimation: Variants = {
 	},
 	closed: {
 		opacity: 0,
-		x: -80,
+		x: -40,
 	},
 };
 

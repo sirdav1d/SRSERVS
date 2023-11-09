@@ -6,7 +6,7 @@ import TextComponent from '../../molecules/textComponent';
 
 export default function SecuritySection() {
 	return (
-		<div className='flex max-w-[1280px] mx-auto mt-24'>
+		<div className='flex max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto mt-24'>
 			<div className='flex gap-20'>
 				<div className='w-full'>
 					<TextComponent
@@ -20,7 +20,7 @@ export default function SecuritySection() {
 				<img
 					src={secImg}
 					alt='Porteiro'
-					className='w-[440px] drop-shadow-lg object-contain'
+					className='hidden lg:block w-[440px] drop-shadow-lg object-contain'
 				/>
 			</div>
 		</div>

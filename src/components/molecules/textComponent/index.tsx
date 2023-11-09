@@ -32,7 +32,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						variants={HeadLineAnimation}
 						animate='visible'
 						initial='closed'
-						className='font-bold text-4xl'>
+						className='font-bold text-2xl lg:text-4xl'>
 						{text}
 					</motion.h1>
 				</div>
@@ -40,7 +40,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					variants={FadeAnimation}
 					initial='closed'
 					animate='visible'
-					className='text-lg font-medium text-white/90'>
+					className='text-md lg:text-lg font-medium text-white/90'>
 					{paragraph}
 				</motion.p>
 			</>
@@ -49,7 +49,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 
 	if (role === 'cta') {
 		return (
-			<div className='flex gap-8 flex-col'>
+			<div className='flex gap-8 flex-col w-full'>
 				<div className='flex items-center gap-4'>
 					<motion.span
 						variants={SpanHeadLineAnimation}
@@ -63,7 +63,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						whileInView='visible'
 						viewport={{ amount: 0.9, once: true }}
 						initial='closed'
-						className='font-bold text-4xl max-w-md'>
+						className='font-bold text-2xl lg:text-4xl max-w-md'>
 						{text}
 					</motion.h2>
 				</div>
@@ -72,7 +72,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					initial='closed'
 					whileInView='visible'
 					viewport={{ amount: 0.9, once: true }}
-					className='text-xl  text-stone-800 max-w-lg'>
+					className='text-lg lg:text-xl  text-stone-800 max-w-lg'>
 					{paragraph}
 				</motion.p>
 			</div>
@@ -81,7 +81,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 
 	if (role === 'title') {
 		return (
-			<div className='flex  gap-20 items-start'>
+			<div className='flex gap-5 lg:gap-20 items-start flex-col lg:flex-row'>
 				<div className='text-stone-950 flex w-full items-center gap-3'>
 					<motion.span
 						variants={SpanTitleAnimation}
@@ -95,7 +95,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						whileInView='visible'
 						viewport={{ amount: 0.9, once: true }}
 						initial='closed'
-						className='font-bold text-2xl max-w-md'>
+						className='font-bold lg:text-2xl max-w-md text-lg'>
 						{text}
 					</motion.h2>
 				</div>
@@ -104,7 +104,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					initial='closed'
 					whileInView='visible'
 					viewport={{ amount: 0.9, once: true }}
-					className='text-lg text-stone-800 w-full'>
+					className='lg:text-lg text-sm text-stone-800 w-full'>
 					{paragraph}
 				</motion.p>
 			</div>
@@ -113,7 +113,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 
 	if (role === 'clean') {
 		return (
-			<div className='flex flex-col  gap-5 items-start'>
+			<div className='flex flex-col gap-3 lg:gap-5 items-start'>
 				<div className='text-stone-950 flex w-full items-center gap-3'>
 					<motion.span
 						variants={SpanTitleAnimation}
@@ -127,7 +127,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						whileInView='visible'
 						viewport={{ amount: 0.9, once: true }}
 						initial='closed'
-						className='font-bold text-2xl'>
+						className='font-bold text-lg lg:text-2xl'>
 						{text}
 					</motion.h2>
 				</div>
@@ -136,17 +136,17 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					initial='closed'
 					whileInView='visible'
 					viewport={{ amount: 0.9, once: true }}
-					className='text-lg text-stone-800 w-full'>
+					className='lg:text-lg text-sm text-stone-800 w-full'>
 					{paragraph}
 				</motion.p>
-				<div className='flex mt-10 gap-5 '>
-					<div className='flex flex-col gap-5  '>
+				<div className='flex mt-5 lg:mt-10 gap-5 flex-col lg:flex-row'>
+					<div className='flex flex-col lg:gap-5 gap-1  '>
 						<motion.h3
 							variants={FadeAnimation}
 							initial='closed'
 							whileInView='visible'
 							viewport={{ amount: 0.9, once: true }}
-							className='font-bold text-stone-900 text-xl'>
+							className='font-bold text-stone-900 text-lg lg:text-xl'>
 							Impressão Positiva
 						</motion.h3>
 						<motion.p
@@ -154,19 +154,19 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 							initial='closed'
 							whileInView='visible'
 							viewport={{ amount: 0.9, once: true }}
-							className=' text-stone-800 text-base'>
+							className=' text-stone-800 lg:text-base text-sm'>
 							Uma área limpa e bem conservada cria uma impressão positiva nos
 							clientes, visitantes e parceiros de negócios, reforçando a
 							reputação da empresa.
 						</motion.p>
 					</div>
-					<div className='flex flex-col gap-5  '>
+					<div className='flex flex-col lg:gap-5 gap-1  '>
 						<motion.h3
 							variants={FadeAnimation}
 							initial='closed'
 							whileInView='visible'
 							viewport={{ amount: 0.9, once: true }}
-							className='font-bold text-stone-900 text-xl'>
+							className='font-bold text-stone-900 text-lg lg:text-xl'>
 							Foco no Core Business
 						</motion.h3>
 						<motion.p
@@ -174,7 +174,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 							initial='closed'
 							whileInView='visible'
 							viewport={{ amount: 0.9, once: true }}
-							className=' text-stone-800 text-base'>
+							className=' text-stone-800 lg:text-base text-sm'>
 							Terceirizar serviços de limpeza e conservação permite que as
 							empresas se concentrem em suas atividades principais, economizando
 							tempo e recursos
@@ -187,7 +187,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 
 	if (role === 'security') {
 		return (
-			<div className='flex flex-col  gap-5 items-start'>
+			<div className='flex flex-col gap-3  lg:gap-5 items-start'>
 				<div className='text-stone-950 flex w-full items-center gap-3'>
 					<motion.span
 						variants={SpanTitleAnimation}
@@ -201,7 +201,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						whileInView='visible'
 						viewport={{ amount: 0.9, once: true }}
 						initial='closed'
-						className='font-bold text-2xl'>
+						className='font-bold text-lg lg:text-2xl'>
 						{text}
 					</motion.h2>
 				</div>
@@ -210,7 +210,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					initial='closed'
 					whileInView='visible'
 					viewport={{ amount: 0.9, once: true }}
-					className='text-lg text-stone-800 w-full'>
+					className='text-sm lg:text-lg text-stone-800 w-full'>
 					{paragraph}
 				</motion.p>
 			</div>
@@ -241,7 +241,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						whileInView='visible'
 						viewport={{ amount: 0.9, once: true }}
 						initial='closed'
-						className='font-bold text-2xl max-w-sm'>
+						className='font-bold text-lg lg:text-2xl max-w-sm'>
 						{text}
 					</motion.h2>
 				</div>
@@ -250,7 +250,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					initial='closed'
 					whileInView='visible'
 					viewport={{ amount: 0.9, once: true }}
-					className='text-lg text-stone-800 w-full'>
+					className='text-base lg:text-lg text-stone-800 w-full'>
 					{paragraph}
 				</motion.p>
 				<div className='flex mt-10 gap-5 '>
@@ -258,7 +258,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 						{benefits.map((benefit, index) => {
 							return (
 								<li
-									className='text-lg font-bold text-stone-600 '
+									className='text-sm lg:text-lg font-bold text-stone-600 '
 									key={index}>
 									<div className='flex gap-3'>
 										<BiMedal
