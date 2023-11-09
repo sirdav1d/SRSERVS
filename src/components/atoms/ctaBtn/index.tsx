@@ -21,7 +21,7 @@ export default function CTAButton({ text, apiCall = '#' }: BTNPropos) {
 				href={apiCall}
 				target='_blank'
 				rel='noopener noreferrer'>
-				<h3 className='font-bold text-base text-white'>{text}</h3>
+				<h4 className='font-bold text-base text-white'>{text}</h4>
 				<BiSolidNavigation
 					color={'white'}
 					size={24}

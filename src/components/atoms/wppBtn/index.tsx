@@ -18,7 +18,7 @@ export default function WPPButton({ apiCall = '#' }: BTNPropos) {
 					color={'white'}
 					size={24}
 				/>
-				<h3 className='text-white font-bold text-base'>Entrar em Contato</h3>
+				<h4 className='text-white font-bold text-base'>Entrar em Contato</h4>
 			</a>
 		</>
 	);

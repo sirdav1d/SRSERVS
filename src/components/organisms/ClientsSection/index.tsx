@@ -46,7 +46,7 @@ export default function ClientsSection() {
 					role={'title'}
 					text={'Venha Fazer Parte Da Nossa Comunidade de Clientes'}
 				/>
-				<div className='flex flex-wrap flex-shrink-0 items-center justify-center'>
+				<ul className='flex flex-wrap flex-shrink-0 items-center justify-center'>
 					{logos.map((logo, index) => {
 						return (
 							<li key={index}>
@@ -58,7 +58,7 @@ export default function ClientsSection() {
 							</li>
 						);
 					})}
-				</div>
+				</ul>
 			</div>
 		</div>
 	);

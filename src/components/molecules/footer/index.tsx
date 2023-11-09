@@ -35,22 +35,22 @@ export default function Footer() {
 					<div className='flex flex-col gap-5'>
 						<h3 className='font-bold text-2xl'>Site Map</h3>
 						<ul className='text-stone-200 text-base flex flex-col gap-1 '>
-							<li className='hover:font-bold hover:text-white '>
+							<li className=' hover:text-white '>
 								<a href='#home'>HOME</a>
 							</li>
-							<li className='hover:font-bold hover:text-white '>
+							<li className=' hover:text-white '>
 								<a href='#who'>QUEM SOMOS</a>{' '}
 							</li>
-							<li className='hover:font-bold hover:text-white '>
+							<li className=' hover:text-white '>
 								<a href='#servs'>SERVIÇOS</a>
 							</li>
-							<li className='hover:font-bold hover:text-white '>
+							<li className=' hover:text-white '>
 								<a href='#clients'>PARCEIROS</a>
 							</li>
-							<li className='hover:font-bold hover:text-white '>
+							<li className=' hover:text-white '>
 								<a href='#benefits'>BENEFÍCIOS</a>
 							</li>
-							<li className='hover:font-bold hover:text-white '>
+							<li className=' hover:text-white '>
 								<a href='#contact'>CONTATO</a>
 							</li>
 						</ul>
@@ -59,8 +59,9 @@ export default function Footer() {
 					<ul className='flex flex-col items-center gap-5 h-full'>
 						<li>
 							<a
-								href='#home'
-								target='_blank'>
+								href='http://'
+								target='_blank'
+								rel='noopener noreferrer'>
 								<BiLogoFacebookSquare
 									size={40}
 									className='text-lightSRBlue grayscale hover:grayscale-0 hover:drop-shadow-iconShadow duration-300 transition-all ease-linear'
@@ -69,19 +70,20 @@ export default function Footer() {
 						</li>
 						<li>
 							<a
-								href='#who'
-								target='_blank'>
+								href='http://'
+								target='_blank'
+								rel='noopener noreferrer'>
 								<FaInstagramSquare
 									size={40}
 									className='text-lightSRBlue grayscale hover:grayscale-0 hover:drop-shadow-iconShadow duration-300 transition-all ease-linear'
 								/>
-							</a>{' '}
+							</a>
 						</li>
 						<li>
-							{' '}
 							<a
-								href='#servs'
-								target='_blank'>
+								href='http://'
+								target='_blank'
+								rel='noopener noreferrer'>
 								<BiLogoLinkedinSquare
 									size={40}
 									className='text-lightSRBlue grayscale hover:grayscale-0 hover:drop-shadow-iconShadow duration-300 transition-all ease-linear'

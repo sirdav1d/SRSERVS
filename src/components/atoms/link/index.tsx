@@ -10,9 +10,8 @@ export default function Link({ anchor, text }: LinkProps) {
 		<div>
 			<a
 				className='flex flex-col gap-0 transition-all duration-300 ease relative focus-within:text-lightSRBlue checked:text-lightSRBlue focus:text-lightSRBlue'
-				href={anchor}
-				rel='noopener noreferrer'>
-				<h3>{text}</h3>
+				href={anchor}>
+				<h4>{text}</h4>
 			</a>
 		</div>
 	);
