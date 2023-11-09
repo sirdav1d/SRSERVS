@@ -46,12 +46,12 @@ export default function ClientsSection() {
 					role={'title'}
 					text={'Venha Fazer Parte Da Nossa Comunidade de Clientes'}
 				/>
-				<ul className='flex flex-wrap flex-shrink-0 items-end justify-center gap-5'>
+				<ul className='flex flex-wrap flex-shrink-0 items-end justify-center gap-5 lg:gap-10'>
 					{logos.map((logo, index) => {
 						return (
 							<li key={index}>
 								<img
-									className='w-28 h-28 object-contain '
+									className='w-28 h-28 lg:w-40 lg:h-40 object-contain '
 									src={logo}
 									alt='Logo de Parceiros'
 								/>
