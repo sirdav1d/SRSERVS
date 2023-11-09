@@ -7,20 +7,25 @@ export type CardServsProps = {
 	img: string;
 	title: string;
 	resume?: string;
-	description:string;
+	description: string;
 };
 
-export default function CardServs({ img, title, resume, description }: CardServsProps) {
+export default function CardServs({
+	img,
+	title,
+	resume,
+	description,
+}: CardServsProps) {
 	return (
 		<div
 			className={`border 
-			} rounded relative bg-white h-96  w-64 shadow-md hover:shadow-lg duration-300 transition-all cursor-pointer ease-linear`}>
+			} rounded relative bg-white h-96  w-80 lg:w-64 shadow-md hover:shadow-lg duration-300 transition-all cursor-pointer ease-linear`}>
 			<img
 				src={img}
 				alt={title}
 				width={400}
 				height={400}
-				className={`h-40 duration-300 ease transition-all rounded-t-lg `}
+				className={`h-40 duration-300 ease transition-all rounded-t-lg object-cover`}
 			/>
 			<div className='flex flex-col gap-1 p-4 '>
 				<h3 className='mx-auto w-full font-bold text-lg text-lightSRBlue drop-shadow-sm text-center'>
