@@ -3,14 +3,14 @@
 
 import ModalService from '../modalService';
 
-type CardServsProps = {
+export type CardServsProps = {
 	img: string;
 	title: string;
-	resume: string;
+	resume?: string;
 	description:string;
 };
 
-export default function CardServs({ img, title, resume }: CardServsProps) {
+export default function CardServs({ img, title, resume, description }: CardServsProps) {
 	return (
 		<div
 			className={`border 
@@ -26,10 +26,13 @@ export default function CardServs({ img, title, resume }: CardServsProps) {
 				<h3 className='mx-auto w-full font-bold text-lg text-lightSRBlue drop-shadow-sm text-center'>
 					{title}
 				</h3>
-				<p className='text-sm'>
-					{resume}
-				</p>
-				<ModalService />
+				<p className='text-sm'>{resume}</p>
+				<ModalService
+					img={img}
+					title={title}
+					resume={''}
+					description={description}
+				/>
 			</div>
 		</div>
 	);
