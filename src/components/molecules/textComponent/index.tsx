@@ -254,7 +254,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 					{paragraph}
 				</motion.p>
 				<div className='flex mt-10 gap-5 '>
-					<div className='flex flex-col gap-3  '>
+					<ul className='flex flex-col gap-3  '>
 						{benefits.map((benefit, index) => {
 							return (
 								<li
@@ -270,7 +270,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 								</li>
 							);
 						})}
-					</div>
+					</ul>
 				</div>
 			</div>
 		);
