@@ -7,7 +7,7 @@ export default function WhoSection() {
 	return (
 		<div
 			id='who'
-			className='h-fit lg:w-full max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto mt-20'>
+			className='h-fit max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto mt-20'>
 			<TextComponent
 				role={'title'}
 				text={
@@ -21,7 +21,7 @@ export default function WhoSection() {
 				src={work}
 				alt='Equipe de Trabalho'
 				width={'100%'}
-				className='h-auto lg:h-[400px] mt-10 object-cover rounded shadow-xl hidden lg:w-full'
+				className='h-auto lg:h-[400px] mt-10 object-cover rounded shadow-xl hidden lg:block '
 			/>
 		</div>
 	);

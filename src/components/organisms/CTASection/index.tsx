@@ -8,8 +8,8 @@ export default function CTASection() {
 	return (
 		<div
 			id='contact'
-			className='h-fit mt-24 py-10 lg:w-full  bg-[#F1FAFE]'>
-			<div className=' max-w-[1280px] px-5 lg:mx-14 xl:mx-auto relative flex flex-col w-full'>
+			className='h-fit mt-24 py-10  bg-[#F1FAFE]'>
+			<div className=' max-w-[1280px] px-5 lg:mx-14 xl:mx-auto relative flex flex-col '>
 				{' '}
 				<TextComponent
 					role={'cta'}
@@ -19,7 +19,7 @@ export default function CTASection() {
 				<img
 					src={logo}
 					alt='logo SR Serviços'
-					className='absolute lg:right-0 lg:-top-10 right-10 -top-32 w-40 lg:w-60 xl:w-96 drop-shadow-xl'
+					className='absolute  lg:-top-10 right-10 -top-32 w-40 lg:w-60 xl:w-96 drop-shadow-xl'
 				/>
 				<CTAButton text={'Falar Com Setor Comercial'} />
 			</div>

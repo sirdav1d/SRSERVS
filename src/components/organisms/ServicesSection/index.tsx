@@ -53,7 +53,7 @@ export default function ServicesSection() {
 					role={'title'}
 					text={'Descubra Como Podemos Atender às Suas Necessidades'}
 				/>
-				<div className='flex flex-wrap items-center w-full gap-20 justify-center lg:justify-between'>
+				<div className='flex flex-wrap items-center w-full gap-5 justify-center lg:justify-between'>
 					{dataCards.map((data, index) => {
 						return (
 							<>
