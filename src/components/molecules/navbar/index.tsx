@@ -9,7 +9,7 @@ import { SpanLinkAnimation } from '../../animations/linkAnimation';
 export default function Navbar() {
 	const [show, setShow] = useState('home');
 	return (
-		<div className=' backdrop-blur-md fixed w-full z-50 bg-white/90'>
+		<div className=' backdrop-blur-md fixed w-full z-50 bg-white/90 drop-shadow-md'>
 			<div className='max-w-[1280px] mx-auto p-4 flex justify-between items-center'>
 				<a href='/'>
 					<img
