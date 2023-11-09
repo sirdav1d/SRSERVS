@@ -51,7 +51,7 @@ export default function ClientsSection() {
 						return (
 							<li key={index}>
 								<img
-									className='grayscale hover:grayscale-0 duration-300 transition-all ease-linear scale-[60%] '
+									className='scale-[60%] '
 									src={logo}
 									alt='Logo de Parceiros'
 								/>
