@@ -26,9 +26,9 @@ export default function Footer() {
 					</div>
 					<div className='flex flex-col gap-5'>
 						<h3 className='font-bold lg:text-2xl text-lg'>Contatos</h3>
-						<ul className='text-stone-200 text-xs lg:text-base flex flex-row lg:flex-col gap-1 lg:gap-3'>
-							<li>Fone (11) 2098-4933 |</li>
-							<li> Fone (41) 3353-1683 |</li>
+						<ul className='text-stone-200 text-xs lg:text-base flex flex-col gap-3'>
+							<li>Fone (11) 2098-4933 </li>
+							<li> Fone (41) 3353-1683 </li>
 							<li> Fone (51) 3077-0905</li>
 						</ul>
 					</div>
