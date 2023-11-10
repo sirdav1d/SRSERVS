@@ -7,11 +7,11 @@ import TextComponent from '../../molecules/textComponent';
 export default function CleanSection() {
 	return (
 		<div className='flex max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto mt-24 '>
-			<div className='flex gap-20 flex-col lg:flex-row'>
+			<div className='flex flex-col lg:flex-row gap-20  items-center justify-between'>
 				<img
 					src={cleanImg}
-					alt='Faxineira Apontando'
-					className='w-[440px] drop-shadow-lg object-contain hidden lg:block'
+					alt='Faxineiro'
+					className='w-[440px]  drop-shadow-lg object-contain hidden lg:block'
 				/>
 				<div className='w-full'>
 					<TextComponent

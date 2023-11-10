@@ -2,7 +2,7 @@
 
 import { BiLogoFacebookSquare, BiLogoLinkedinSquare } from 'react-icons/bi';
 import { FaInstagramSquare } from 'react-icons/fa';
-import logo from '../../../assets/logoSRServs_gray.png';
+import logo from '../../../assets/logoSRServs_white.webp';
 
 export default function Footer() {
 	return (
@@ -11,7 +11,7 @@ export default function Footer() {
 				<img
 					src={logo}
 					alt='logo SR Serviços'
-					className='opacity-40 w-40 grayscale'
+					className='w-40 grayscale'
 				/>
 				<div className='flex flex-col lg:flex-row gap-10 justify-between'>
 					<div className='flex flex-col gap-5'>
@@ -70,7 +70,7 @@ export default function Footer() {
 						</li>
 						<li>
 							<a
-								href='http://'
+								href='https://www.instagram.com/srservicos.oficial/'
 								target='_blank'
 								rel='noopener noreferrer'>
 								<FaInstagramSquare
@@ -108,14 +108,14 @@ export default function Footer() {
 					<div className='flex gap-5 underline text-stone-300 text-xs lg:text-sm'>
 						<a
 							className='hover:text-white'
-							href='http://'
+							href='/resources/Politicas.pdf'
 							target='_blank'
 							rel='noopener noreferrer'>
 							Políticas de Privacidade
 						</a>
 						<a
 							className='hover:text-white'
-							href='http://'
+							href='/resources/Termos_de_uso.pdf'
 							target='_blank'
 							rel='noopener noreferrer'>
 							Termos de Uso

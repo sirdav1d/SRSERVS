@@ -23,7 +23,7 @@ export default function HeroSection() {
 					empresarial'
 					/>
 					<CTAButton
-						text='Fazer Orçamento'
+						text='Solicitar Orçamento'
 						apiCall='/'
 					/>
 				</div>

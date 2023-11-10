@@ -37,7 +37,7 @@ export default function ModalService(props: CardServsProps) {
 					<img
 						src={props.img}
 						alt={props.title}
-						className='w-full object-cover h-44 object-center rounded-md'
+						className='w-full object-cover h-44 object-center rounded-md shadow-md'
 					/>
 					<div className='mt-3 flex flex-col justify-between h-full '>
 						<h3 className='font-bold text-xl text-stone-900'>{props.title}</h3>

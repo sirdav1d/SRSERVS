@@ -225,6 +225,7 @@ export default function TextComponent({ role, text, paragraph }: TitleProps) {
 			'Gerenciamento Eficiente dos Encargos Sociais',
 			'Redução de Custos',
 			'Fornecimento de Uniformes e Benefícios',
+			'Supervisão Constante'
 		];
 		return (
 			<div className='flex flex-col  gap-5 items-start'>

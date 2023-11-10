@@ -4,21 +4,13 @@ import adm from '../../../assets/cards/contrato.webp';
 import recepcao from '../../../assets/cards/recepcao.webp';
 import TextComponent from '../../molecules/textComponent';
 import CardServs from './cardServs';
-
 import limpeza from '../../../assets/cards/pisos-1.webp';
-
 import portaria from '../../../assets/cards/servicos-de-portaria.webp';
+import jardinagem from '../../../assets/cards/jardineiro.webp';
+import limpaVidro from '../../../assets/cards/limpando_vidros.webp';
 
 export default function ServicesSection() {
 	const dataCards = [
-		{
-			img: recepcao,
-			title: 'Recepção',
-			resume:
-				'Ao terceirizar a recepção, sua empresa ganha em eficiência, qualidade e flexibilidade, otimizando recursos e promovendo uma imagem profissional',
-			description:
-				'A terceirização do serviço de recepcionista garante uma recepção calorosa e profissional a cada visitante. Profissionais altamente treinados e dedicados são a face acolhedora de sua empresa, criando impressões memoráveis alinhadas aos valores da organização, que elevam o profissionalismo e a imagem corporativa.',
-		},
 		{
 			img: limpeza,
 			title: 'Limpeza e Conservação',
@@ -36,12 +28,37 @@ export default function ServicesSection() {
 				'Ao terceirizar o controle de acesso e portaria, sua empresa pode se concentrar estrategicamente em melhorar e aprimorar os protocolos de segurança. Isso não apenas reforça a imagem de sua empresa, mas também contribui para a tranquilidade e confiança de colaboradores e visitantes. Além disso, sua empresa pode se adaptar rapidamente a mudanças na demanda ou requisitos específicos, garantindo um serviço adaptável e eficaz em diferentes cenários operacionais.',
 		},
 		{
+			img: recepcao,
+			title: 'Recepção',
+			resume:
+				'Ao terceirizar a recepção, sua empresa ganha em eficiência, qualidade e flexibilidade, otimizando recursos e promovendo uma imagem profissional',
+			description:
+				'A terceirização do serviço de recepcionista garante uma recepção calorosa e profissional a cada visitante. Profissionais altamente treinados e dedicados são a face acolhedora de sua empresa, criando impressões memoráveis alinhadas aos valores da organização, que elevam o profissionalismo e a imagem corporativa.',
+		},
+
+		{
 			img: adm,
-			title: 'Auxiliar Admministrativo',
+			title: 'Auxiliar Administrativo',
 			resume:
 				'Otimize operações e fortaleça a equipe ao terceirizar auxiliares administrativos, proporcionando eficiência e expertise à gestão empresarial',
 			description:
 				'Conte com a expertise de profissionais especializados para lidar com uma ampla gama de tarefas administrativas. A terceirização proporciona acesso imediato a habilidades e conhecimentos específicos, elevando a qualidade e a eficácia das operações administrativas. Profissionais altamente treinados oferecem suporte estratégico, lidando com tarefas administrativas com precisão e agilidade.',
+		},
+		{
+			img: jardinagem,
+			title: 'Jardinagem',
+			resume:
+				'Terceirizar jardinagem promove ambientes atraentes, sustentáveis e economicamente inteligentes.',
+			description:
+				'A terceirização do serviço de jardinagem não apenas garante a manutenção de jardins deslumbrantes, mas também revitaliza os espaços ao redor de sua empresa. Profissionais altamente especializados não só cuidam das plantas, mas também aplicam técnicas avançadas para criar ambientes ao ar livre que inspiram tranquilidade e produtividade.',
+		},
+		{
+			img: limpaVidro,
+			title: 'Limpeza de Vidros e Janelas',
+			resume:
+				'Otimize operações e fortaleça a equipe ao terceirizar auxiliares administrativos, proporcionando eficiência e expertise à gestão empresarial',
+			description:
+				'Além de garantir a limpeza perfeita de vidros e janelas, a terceirização implica em uma notável redução de riscos associados a essas tarefas. Profissionais especializados utilizam equipamentos de segurança e aplicam práticas rigorosas, assegurando não apenas uma limpeza eficaz, mas também um ambiente de trabalho seguro.',
 		},
 	];
 	return (
@@ -53,7 +70,7 @@ export default function ServicesSection() {
 					role={'title'}
 					text={'Descubra Como Podemos Atender às Suas Necessidades'}
 				/>
-				<div className='flex flex-wrap items-center w-full gap-5 justify-center lg:justify-between'>
+				<div className='flex flex-wrap items-center w-full gap-5 lg:gap-14 justify-center'>
 					{dataCards.map((data, index) => {
 						return (
 							<>

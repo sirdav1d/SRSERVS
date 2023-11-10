@@ -18,8 +18,7 @@ export default function CardServs({
 }: CardServsProps) {
 	return (
 		<div
-			className={`border 
-			} rounded relative bg-white h-96  w-80 lg:w-64 shadow-md hover:shadow-lg duration-300 transition-all cursor-pointer ease-linear`}>
+			className={` rounded relative bg-white h-96 w-80 shadow-md hover:shadow-lg duration-300 transition-all flex flex-col cursor-pointer ease-linear justify-between`}>
 			<img
 				src={img}
 				alt={title}
@@ -27,8 +26,8 @@ export default function CardServs({
 				height={400}
 				className={`h-40 duration-300 ease transition-all rounded-t-lg object-cover`}
 			/>
-			<div className='flex flex-col gap-1 p-4 '>
-				<h3 className='mx-auto w-full font-bold text-lg text-lightSRBlue drop-shadow-sm text-center'>
+			<div className='flex flex-col gap-1 p-4 h-full justify-between'>
+				<h3 className='mx-auto w-full font-bold text-lg text-stone-900 drop-shadow-sm text-center'>
 					{title}
 				</h3>
 				<p className='text-sm'>{resume}</p>
