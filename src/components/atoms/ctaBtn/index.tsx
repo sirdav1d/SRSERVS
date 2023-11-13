@@ -13,7 +13,7 @@ export default function CTAButton({ text }: BTNPropos) {
 	const handleClick = () => {
 		try {
 			window.open(
-				'mailto:guilherme@srservicos.com.br?subject=Solicitação de Orçamento&body=Ol%C3%A1!%20Estava%20no%20seu%20site%20e%20preciso%20de%20um%20or%C3%A7amento',
+				'mailto:guilherme@srservicos.com.br?subject=Solicita%C3%A7%C3%A3o+de+Or%C3%A7amento&body=Ol%C3%A1,+estava+no+seu+site+e+gostaria+de+um+or%C3%A7amento',
 				'_blank',
 			);
 			console.log('clicando');
