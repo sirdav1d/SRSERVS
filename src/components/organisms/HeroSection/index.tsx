@@ -22,10 +22,7 @@ export default function HeroSection() {
 					terceirização inteligente otimizar o seu caminho para o sucesso
 					empresarial'
 					/>
-					<CTAButton
-						text='Solicitar Orçamento'
-						apiCall='/'
-					/>
+					<CTAButton text='Solicitar Orçamento' />
 				</div>
 			</div>
 		</div>
