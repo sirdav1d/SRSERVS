@@ -1,6 +1,6 @@
 /** @format */
 
-import { BiLogoFacebookSquare, BiLogoLinkedinSquare } from 'react-icons/bi';
+// import { BiLogoFacebookSquare, BiLogoLinkedinSquare } from 'react-icons/bi';
 import { FaInstagramSquare } from 'react-icons/fa';
 import logo from '../../../assets/logoSRServs_white.webp';
 
@@ -57,7 +57,7 @@ export default function Footer() {
 					</div>
 
 					<ul className='flex lg:flex-col items-center gap-5 h-full'>
-						<li>
+						{/* <li>
 							<a
 								href='http://'
 								target='_blank'
@@ -67,7 +67,7 @@ export default function Footer() {
 									className='text-lightSRBlue grayscale hover:grayscale-0 hover:drop-shadow-iconShadow duration-300 transition-all ease-linear'
 								/>
 							</a>
-						</li>
+						</li> */}
 						<li>
 							<a
 								href='https://www.instagram.com/srservicos.oficial/'
@@ -79,7 +79,7 @@ export default function Footer() {
 								/>
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a
 								href='http://'
 								target='_blank'
@@ -89,7 +89,7 @@ export default function Footer() {
 									className='text-lightSRBlue grayscale hover:grayscale-0 hover:drop-shadow-iconShadow duration-300 transition-all ease-linear'
 								/>
 							</a>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 				<span className='w-full h-[2px] bg-white/20 rounded-full' />
@@ -101,7 +101,7 @@ export default function Footer() {
 							href='https://tarsprojetos.com/'
 							target='_blank'
 							rel='noopener noreferrer'>
-							Tars Projetos © {''}
+							Tars Projetos LTDA © {''}
 						</a>
 						{''}2023 Todos os Direitos Reservados
 					</p>

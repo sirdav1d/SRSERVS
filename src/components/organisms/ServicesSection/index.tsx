@@ -65,7 +65,7 @@ export default function ServicesSection() {
 		<div
 			id='servs'
 			className='bg-[#F1FAFE] w-full mt-10 py-20 h-fit '>
-			<div className=' max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto flex flex-col gap-20 '>
+			<div className=' max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto flex flex-col gap-5 lg:gap-20 '>
 				<TextComponent
 					role={'title'}
 					text={'Descubra Como Podemos Atender às Suas Necessidades'}

@@ -1,5 +1,6 @@
 /** @format */
 
+import BannerLGPD from './components/molecules/bannerLGPD';
 import Footer from './components/molecules/footer';
 import BenefitsSection from './components/organisms/BenefitsSection';
 import CTASection from './components/organisms/CTASection';
@@ -14,6 +15,7 @@ function App() {
 	return (
 		<div className='bg-[#fdfdfd] '>
 			<HeroSection />
+			<BannerLGPD />
 			<WhoSection />
 			<CleanSection />
 			<SecuritySection />
