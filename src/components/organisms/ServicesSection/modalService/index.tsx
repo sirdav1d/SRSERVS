@@ -28,7 +28,7 @@ export default function ModalService(props: CardServsProps) {
 				animate={`${show ? 'visible' : 'closed'}`}
 				initial='closed'
 				className=' bg-white/40 backdrop-blur-sm h-screen transform w-screen overflow-hidden fixed z-50 top-0 left-0 bottom-0 flex mx-auto transition-all duration-300 ease-linear items-center justify-center '>
-				<div className='bg-white flex flex-col mx-5  lg:w-1/3 lg:h-[54%] m-auto shadow-xl rounded-lg relative z-50 p-5 '>
+				<div className='bg-white flex flex-col mx-5  lg:w-1/3 h-fit m-auto shadow-xl rounded-lg relative z-50 p-5'>
 					<button
 						onClick={() => setShow(false)}
 						className=' w-20 h-20 absolute right-1 top-1 rotate-45 text-6xl text-red-600 hover:scale-110 duration-100 transition-all ease-linear'>

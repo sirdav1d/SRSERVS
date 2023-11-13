@@ -11,7 +11,7 @@ export default function HeroSection() {
 			className='relative lg:w-full h-screen'>
 			<Navbar />
 
-			<div className='absolute w-full h-screen bg-black/80 bg-blend-overlay bg-no-repeat bg-cover bg-center bg-fixed top-0 left-0 bg-bgHero px-5 md:px-14'>
+			<div className='absolute w-full h-screen bg-black/70 bg-blend-overlay bg-no-repeat bg-cover bg-center bg-fixed top-0 left-0 bg-bgHero px-5 md:px-14'>
 				<div className='flex flex-col gap-6 ml-0 2xl:ml-80 my-48 2xl:my-60 max-w-[640px] text-white'>
 					<TextComponent
 						role='Headline'

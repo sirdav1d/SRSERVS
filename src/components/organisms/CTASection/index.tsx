@@ -5,6 +5,14 @@ import logo from '../../../assets/logoSRServs.webp';
 import CTAButton from '../../atoms/ctaBtn';
 
 export default function CTASection() {
+	const handleClick = () => {
+		try {
+			window.open('mailto:guilherme@srservicos.com.br', '_blank');
+			console.log('clicando');
+		} catch (error) {
+			console.log(error);
+		}
+	};
 	return (
 		<div
 			id='contact'
@@ -22,6 +30,11 @@ export default function CTASection() {
 					className='absolute  lg:-top-10 right-10 -top-32 w-40 lg:w-60 xl:w-96 drop-shadow-xl'
 				/>
 				<CTAButton text={'Falar Com Setor Comercial'} />
+				<button
+					className='bg-red-600   w-fit h-fit p-4'
+					onClick={() => handleClick()}>
+					teste
+				</button>
 			</div>
 		</div>
 	);

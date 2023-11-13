@@ -73,7 +73,7 @@ export default function ServicesSection() {
 				<div className='flex flex-wrap items-center w-full gap-5 lg:gap-14 justify-center'>
 					{dataCards.map((data, index) => {
 						return (
-							<>
+							<li key={index}>
 								<CardServs
 									img={data.img}
 									title={data.title}
@@ -81,7 +81,7 @@ export default function ServicesSection() {
 									description={data.description}
 									key={index}
 								/>
-							</>
+							</li>
 						);
 					})}
 				</div>
