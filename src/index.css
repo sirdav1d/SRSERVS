@@ -21,5 +21,9 @@ h1,a,h2,h3{
 p{
   font-family: 'Red Hat Text', sans-serif;
 }
+
+button{
+  font-family: 'Red Hat Display', sans-serif;
+}
 @tailwind components;
 @tailwind utilities;

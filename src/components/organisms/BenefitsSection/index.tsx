@@ -9,7 +9,7 @@ export default function BenefitsSection() {
 		<div
 			className='h-fit mt-24 w-full'
 			id='benefits'>
-			<div className=' max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto items-end justify-center  flex lg:gap-20'>
+			<div className=' max-w-[1280px] mx-5 lg:mx-14 xl:mx-auto items-center justify-center  flex lg:gap-20'>
 				<img
 					src={teamImg}
 					alt='Faxineira Apontando'
