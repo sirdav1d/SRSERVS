@@ -19,7 +19,7 @@ export default function BannerLGPD() {
 		setCanShow(false);
 	}
 
-	const [canShow, setCanShow] = useState(true);
+	const [canShow, setCanShow] = useState(false);
 
 	useEffect(() => {
 		const resp = localStorage.getItem('lgpd');

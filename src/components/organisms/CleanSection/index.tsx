@@ -1,6 +1,6 @@
 /** @format */
 
-import cleanImg from '../../../assets/Faxineira_apontando-transformed.webp';
+import cleanImg from '../../../assets/faxina.webp';
 import CTAButton from '../../atoms/ctaBtn';
 import TextComponent from '../../molecules/textComponent';
 
@@ -11,7 +11,9 @@ export default function CleanSection() {
 				<img
 					src={cleanImg}
 					alt='Faxineiro'
-					className='w-[440px]  drop-shadow-lg object-contain hidden lg:block'
+					className='w-[440px] object-contain hidden lg:block'
+					width={480}
+					height={480}
 				/>
 				<div className='w-full'>
 					<TextComponent

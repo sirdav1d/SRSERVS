@@ -27,7 +27,7 @@ export default function CTAButton({ text }: BTNPropos) {
 				variants={FadeAnimation}
 				animate='visible'
 				initial='closed'
-				className='p-4 mt-10 transition-all duration-300  ease-linear w-fit rounded  shadow-sm flex items-center gap-3 hover:shadow-xl   bg-bgBtn bg-btnSize bg-center hover:bg-right'
+				className='p-4 mt-10 tracking-wide transition-all duration-300  ease-linear w-fit rounded  shadow-sm flex items-center gap-3 hover:shadow-xl   bg-bgBtn bg-btnSize bg-center hover:bg-right'
 				onClick={() => handleClick()}
 				rel='noopener noreferrer'>
 				<h4 className='font-bold text-base text-white'>{text}</h4>

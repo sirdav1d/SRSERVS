@@ -1,6 +1,6 @@
 /** @format */
 
-import secImg from '../../../assets/porteiro.webp';
+import secImg from '../../../assets/recepcao.webp';
 import CTAButton from '../../atoms/ctaBtn';
 import TextComponent from '../../molecules/textComponent';
 
@@ -20,7 +20,9 @@ export default function SecuritySection() {
 				<img
 					src={secImg}
 					alt='Porteiro'
-					className='hidden lg:block w-[440px] drop-shadow-lg object-contain'
+					className='hidden lg:block w-[440px] object-contain'
+					width={480}
+					height={480}
 				/>
 			</div>
 		</div>
