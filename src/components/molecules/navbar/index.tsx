@@ -127,7 +127,7 @@ export default function Navbar() {
 						</motion.li>
 					</ul>
 				</nav>
-				<WPPButton />
+				<WPPButton apiCall='https://wa.me/5511934617401?text=Ol%C3%A1%2C%20estava%20navegando%20em%20seu%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento' />
 			</div>
 		</div>
 	);
