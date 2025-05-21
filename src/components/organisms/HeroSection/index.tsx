@@ -22,7 +22,18 @@ export default function HeroSection() {
 					terceirização inteligente otimizar o seu caminho para o sucesso
 					empresarial'
 					/>
-					<CTAButton text='Envie seu currículo' />
+					<a
+				
+				
+				className='p-4 mt-10 tracking-wide transition-all duration-300 font-bold text-base text-white  ease-linear w-fit rounded  shadow-sm flex items-center gap-3 hover:shadow-xl   bg-bgBtn bg-btnSize bg-center hover:bg-right'
+				
+				rel='noopener noreferrer'>
+				Enviar Currículo
+				<BiSolidNavigation
+					color={'white'}
+					size={24}
+				/>
+			</a>
 				</div>
 			</div>
 		</div>
