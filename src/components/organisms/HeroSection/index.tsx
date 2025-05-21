@@ -1,6 +1,6 @@
 /** @format */
 
-import CTAButton from '../../atoms/ctaBtn';
+import { BiSolidNavigation } from 'react-icons/bi';
 import TextComponent from '../../molecules/textComponent';
 import Navbar from '../../molecules/navbar';
 
