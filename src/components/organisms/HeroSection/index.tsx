@@ -22,7 +22,7 @@ export default function HeroSection() {
 					terceirização inteligente otimizar o seu caminho para o sucesso
 					empresarial'
 					/>
-					<CTAButton text='Trabalhe Conosco (11) 99583-4454' />
+					<CTAButton text='Envie seu currículo' />
 				</div>
 			</div>
 		</div>
