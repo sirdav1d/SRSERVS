@@ -23,7 +23,7 @@ export default function HeroSection() {
 					empresarial'
 					/>
 					<a
-				
+				href='https://wa.me/5511995834454?text=Estava%20no%20seu%20site%20e%20quero%20me%20candidatar%20a%20vaga%20de%20emprego'
 				
 				className='p-4 mt-10 tracking-wide transition-all duration-300 font-bold text-base text-white  ease-linear w-fit rounded  shadow-sm flex items-center gap-3 hover:shadow-xl   bg-bgBtn bg-btnSize bg-center hover:bg-right'
 				
